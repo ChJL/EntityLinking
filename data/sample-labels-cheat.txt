@@ -1,0 +1,389 @@
+1UP	<http://www.wikidata.org/entity/Q281251>
+4G	<http://www.wikidata.org/entity/Q79697>
+ABC World News	<http://www.wikidata.org/entity/Q700417>
+AIDS	<http://www.wikidata.org/entity/Q12199>
+AMS	<http://www.wikidata.org/entity/Q465726>
+Acquired Immune Deficiency Syndrome	<http://www.wikidata.org/entity/Q12199>
+Adobe	<http://www.wikidata.org/entity/Q183496>
+Adobe	<http://www.wikidata.org/entity/Q11463>
+Albany	<http://www.wikidata.org/entity/Q24861>
+Alzheimer	<http://www.wikidata.org/entity/Q11081>
+Amazon	<http://www.wikidata.org/entity/Q10846439>
+America	<http://www.wikidata.org/entity/Q30>
+American	<http://www.wikidata.org/entity/Q30>
+Americans	<http://www.wikidata.org/entity/Q30>
+Amnesia: The Dark Descent	<http://www.wikidata.org/entity/Q22986>
+Andre	<http://www.wikidata.org/entity/Q501407>
+Angelina Jolie	<http://www.wikidata.org/entity/Q13909>
+Apple	<http://www.wikidata.org/entity/Q312>
+Asia	<http://www.wikidata.org/entity/Q48>
+Athens	<http://www.wikidata.org/entity/Q1524>
+Augusta	<http://www.wikidata.org/entity/Q181962>
+Austin	<http://www.wikidata.org/entity/Q16559>
+Australian	<http://www.wikidata.org/entity/Q408>
+BA	<http://www.wikidata.org/entity/Q1765120>
+BFA	<http://www.wikidata.org/entity/Q2878277>
+Bachelors	<http://www.wikidata.org/entity/Q516445>
+Bank of England	<http://www.wikidata.org/entity/Q183231>
+Barack Obama	<http://www.wikidata.org/entity/Q76>
+Barnes and Noble	<http://www.wikidata.org/entity/Q795454>
+Believe It Or Not	<http://www.wikidata.org/entity/Q1203684>
+Berlin	<http://www.wikidata.org/entity/Q64>
+Billings	<http://www.wikidata.org/entity/Q166304>
+BioWare	<http://www.wikidata.org/entity/Q219758>
+Blizzard	<http://www.wikidata.org/entity/Q178824>
+BlogSpot	<http://www.wikidata.org/entity/Q171186>
+Blogger	<http://www.wikidata.org/entity/Q171186>
+Bloomberg	<http://www.wikidata.org/entity/Q13977>
+Blue	<http://www.wikidata.org/entity/Q166194>
+Brad Pitt	<http://www.wikidata.org/entity/Q35332>
+Breast	<http://www.wikidata.org/entity/Q9103>
+Breast Cancer	<http://www.wikidata.org/entity/Q128581>
+Brian Cashman	<http://www.wikidata.org/entity/Q2924879>
+Brighton Beach	<http://www.wikidata.org/entity/Q915813>
+British	<http://www.wikidata.org/entity/Q145>
+Brooklyn	<http://www.wikidata.org/entity/Q18419>
+Brooklyn Tech	<http://www.wikidata.org/entity/Q2737843>
+Burns	<http://www.wikidata.org/entity/Q170518>
+CA	<http://www.wikidata.org/entity/Q99>
+CAPPUCCINO	<http://www.wikidata.org/entity/Q159774>
+CBS	<http://www.wikidata.org/entity/Q43380>
+CCR5	<http://www.wikidata.org/entity/Q418404>
+CDC	<http://www.wikidata.org/entity/Q583725>
+CNN	<http://www.wikidata.org/entity/Q48340>
+CNNMoney	<http://www.wikidata.org/entity/Q2931769>
+CO	<http://www.wikidata.org/entity/Q1261>
+CTA	<http://www.wikidata.org/entity/Q117309>
+CVG	<http://www.wikidata.org/entity/Q277666>
+California	<http://www.wikidata.org/entity/Q99>
+Canada	<http://www.wikidata.org/entity/Q16>
+Cart	<http://www.wikidata.org/entity/Q234668>
+Cashman	<http://www.wikidata.org/entity/Q2924879>
+Catherine	<http://www.wikidata.org/entity/Q277377>
+Central Park Zoo	<http://www.wikidata.org/entity/Q954207>
+Charlotte	<http://www.wikidata.org/entity/Q16565>
+China	<http://www.wikidata.org/entity/Q148>
+Christina Aguilera	<http://www.wikidata.org/entity/Q41594>
+Cialdini	<http://www.wikidata.org/entity/Q1198516>
+Click	<http://www.wikidata.org/entity/Q427013>
+Cody Simpson	<http://www.wikidata.org/entity/Q314319>
+Company	<http://www.wikidata.org/entity/Q783794>
+Continental	<http://www.wikidata.org/entity/Q216486>
+Cook	<http://www.wikidata.org/entity/Q156839>
+Cooking	<http://www.wikidata.org/entity/Q38695>
+Costco	<http://www.wikidata.org/entity/Q715583>
+Craft	<http://www.wikidata.org/entity/Q2207288>
+DA	<http://www.wikidata.org/entity/Q761877>
+DLC	<http://www.wikidata.org/entity/Q1066707>
+DOTA 2	<http://www.wikidata.org/entity/Q771541>
+DUB	<http://www.wikidata.org/entity/Q212688>
+Daily News	<http://www.wikidata.org/entity/Q627827>
+David Archuleta	<http://www.wikidata.org/entity/Q214831>
+Defense of the Ancients	<http://www.wikidata.org/entity/Q215936>
+Demi Moore	<http://www.wikidata.org/entity/Q43044>
+Democratic Party	<http://www.wikidata.org/entity/Q29552>
+Deutsche Boerse	<http://www.wikidata.org/entity/Q157852>
+Discover	<http://www.wikidata.org/entity/Q733742>
+Disney	<http://www.wikidata.org/entity/Q7414>
+Disney Princess	<http://www.wikidata.org/entity/Q1140303>
+Documentary	<http://www.wikidata.org/entity/Q93204>
+Dota	<http://www.wikidata.org/entity/Q215936>
+Dota 2	<http://www.wikidata.org/entity/Q771541>
+Double Fine	<http://www.wikidata.org/entity/Q1251435>
+Drupal	<http://www.wikidata.org/entity/Q170855>
+Dude	<http://www.wikidata.org/entity/Q942988>
+EULA	<http://www.wikidata.org/entity/Q725920>
+EWR	<http://www.wikidata.org/entity/Q466786>
+East Coast	<http://www.wikidata.org/entity/Q4268>
+East Village	<http://www.wikidata.org/entity/Q1043326>
+Ed McMahon	<http://www.wikidata.org/entity/Q555370>
+Educator	<http://www.wikidata.org/entity/Q8434>
+Ellen	<http://www.wikidata.org/entity/Q839150>
+Ellen DeGeneres	<http://www.wikidata.org/entity/Q483325>
+Ellen DeGeneres Show	<http://www.wikidata.org/entity/Q839150>
+Elton John	<http://www.wikidata.org/entity/Q2808>
+Estee Lauder	<http://www.wikidata.org/entity/Q285493>
+Europe	<http://www.wikidata.org/entity/Q46>
+European	<http://www.wikidata.org/entity/Q46>
+European Central Bank	<http://www.wikidata.org/entity/Q8901>
+FBI	<http://www.wikidata.org/entity/Q8333>
+FRA	<http://www.wikidata.org/entity/Q142>
+FRANKFURT	<http://www.wikidata.org/entity/Q1794>
+Facebook	<http://www.wikidata.org/entity/Q355>
+Fatal Attraction	<http://www.wikidata.org/entity/Q504157>
+Feedburner	<http://www.wikidata.org/entity/Q776845>
+Final Fantasy XIII-2	<http://www.wikidata.org/entity/Q1416043>
+Financial Times	<http://www.wikidata.org/entity/Q183399>
+FireFox	<http://www.wikidata.org/entity/Q698>
+First Solar	<http://www.wikidata.org/entity/Q1138888>
+Flash Player	<http://www.wikidata.org/entity/Q857177>
+Forbes	<http://www.wikidata.org/entity/Q956568>
+Fortune	<http://www.wikidata.org/entity/Q372989>
+Fox	<http://www.wikidata.org/entity/Q166419>
+French	<http://www.wikidata.org/entity/Q142>
+Frictional	<http://www.wikidata.org/entity/Q1441169>
+Frictional Games	<http://www.wikidata.org/entity/Q1441169>
+Fumito Ueda	<http://www.wikidata.org/entity/Q2524011>
+GOP	<http://www.wikidata.org/entity/Q29468>
+GTA	<http://www.wikidata.org/entity/Q132730>
+GameSpot	<http://www.wikidata.org/entity/Q45836>
+Geek	<http://www.wikidata.org/entity/Q243697>
+Gen	<http://www.wikidata.org/entity/Q83460>
+Georgia	<http://www.wikidata.org/entity/Q1428>
+German	<http://www.wikidata.org/entity/Q183>
+Ghost Adventures	<http://www.wikidata.org/entity/Q3243445>
+God	<http://www.wikidata.org/entity/Q190>
+Google	<http://www.wikidata.org/entity/Q95>
+Google Analytics	<http://www.wikidata.org/entity/Q220577>
+Google Maps	<http://www.wikidata.org/entity/Q12013>
+Google+	<http://www.wikidata.org/entity/Q356>
+Graphic Design	<http://www.wikidata.org/entity/Q185925>
+Gray	<http://www.wikidata.org/entity/Q42519>
+Greece	<http://www.wikidata.org/entity/Q41>
+Greyson	<http://www.wikidata.org/entity/Q298360>
+Greyson Chance	<http://www.wikidata.org/entity/Q298360>
+Greyson Michael Chance	<http://www.wikidata.org/entity/Q298360>
+Guy Oseary	<http://www.wikidata.org/entity/Q5622519>
+HERE	<http://www.wikidata.org/entity/Q129911>
+HIV AIDS	<http://www.wikidata.org/entity/Q12199>
+HIV Aids	<http://www.wikidata.org/entity/Q12199>
+HR	<http://www.wikidata.org/entity/Q534851>
+Haiti	<http://www.wikidata.org/entity/Q790>
+Halloween	<http://www.wikidata.org/entity/Q251868>
+Harlequin	<http://www.wikidata.org/entity/Q612938>
+Hayley Williams	<http://www.wikidata.org/entity/Q201562>
+Healthcare Management	<http://www.wikidata.org/entity/Q1137608>
+Herman Cain	<http://www.wikidata.org/entity/Q491019>
+Hold On 'Til the Night	<http://www.wikidata.org/entity/Q3133013>
+Holy Spirit	<http://www.wikidata.org/entity/Q37302>
+Holyhead	<http://www.wikidata.org/entity/Q257446>
+HootSuite	<http://www.wikidata.org/entity/Q2749075>
+Hootsuite	<http://www.wikidata.org/entity/Q2749075>
+Hope	<http://www.wikidata.org/entity/Q190507>
+House	<http://www.wikidata.org/entity/Q3947>
+Hue	<http://www.wikidata.org/entity/Q372948>
+IAH	<http://www.wikidata.org/entity/Q744748>
+IMO	<http://www.wikidata.org/entity/Q201054>
+ISP	<http://www.wikidata.org/entity/Q11371>
+Icefrog	<http://www.wikidata.org/entity/Q3456319>
+Ico	<http://www.wikidata.org/entity/Q1324448>
+Illinois	<http://www.wikidata.org/entity/Q1204>
+India	<http://www.wikidata.org/entity/Q668>
+Indian Point	<http://www.wikidata.org/entity/Q1516614>
+Indonesia	<http://www.wikidata.org/entity/Q252>
+Indonesian	<http://www.wikidata.org/entity/Q252>
+Internet	<http://www.wikidata.org/entity/Q75>
+Internet Explorer	<http://www.wikidata.org/entity/Q1575>
+Internet Service Providers	<http://www.wikidata.org/entity/Q11371>
+Interscope Records	<http://www.wikidata.org/entity/Q231694>
+Inwood	<http://www.wikidata.org/entity/Q1189533>
+Iowa	<http://www.wikidata.org/entity/Q1546>
+Irish Sea	<http://www.wikidata.org/entity/Q41735>
+Irish Times	<http://www.wikidata.org/entity/Q1134208>
+Italian	<http://www.wikidata.org/entity/Q38>
+Jak and Daxter	<http://www.wikidata.org/entity/Q1678804>
+Japan	<http://www.wikidata.org/entity/Q17>
+Jeremy Renner	<http://www.wikidata.org/entity/Q23365>
+Jerusalem	<http://www.wikidata.org/entity/Q1218>
+Jet	<http://www.wikidata.org/entity/Q206592>
+John	<http://www.wikidata.org/entity/Q131285>
+John Lennon	<http://www.wikidata.org/entity/Q1203>
+John Williams	<http://www.wikidata.org/entity/Q131285>
+Juliet	<http://www.wikidata.org/entity/Q15643>
+Kansas City	<http://www.wikidata.org/entity/Q41819>
+Katherine	<http://www.wikidata.org/entity/Q17980>
+Kindle	<http://www.wikidata.org/entity/Q136469>
+Kindle Fire	<http://www.wikidata.org/entity/Q196561>
+King Arthur	<http://www.wikidata.org/entity/Q45792>
+LHR	<http://www.wikidata.org/entity/Q8691>
+LIC	<http://www.wikidata.org/entity/Q1190597>
+Lady Gaga	<http://www.wikidata.org/entity/Q19848>
+Last Guardian	<http://www.wikidata.org/entity/Q2701341>
+Leukemia	<http://www.wikidata.org/entity/Q29496>
+Levi	<http://www.wikidata.org/entity/Q127962>
+Log In	<http://www.wikidata.org/entity/Q472302>
+Lollipop Chainsaw	<http://www.wikidata.org/entity/Q1868703>
+Los Angeles	<http://www.wikidata.org/entity/Q65>
+Los Angeles Times	<http://www.wikidata.org/entity/Q188515>
+MAC	<http://www.wikidata.org/entity/Q75687>
+MSNBC	<http://www.wikidata.org/entity/Q13973>
+MV Swanland	<http://www.wikidata.org/entity/Q2372074>
+Madonna	<http://www.wikidata.org/entity/Q1744>
+Malaysia	<http://www.wikidata.org/entity/Q833>
+Manhattan	<http://www.wikidata.org/entity/Q11299>
+Mass Effect	<http://www.wikidata.org/entity/Q753511>
+Mass Effect 2	<http://www.wikidata.org/entity/Q725057>
+Mass Effect 3	<http://www.wikidata.org/entity/Q753511>
+Matt Damon	<http://www.wikidata.org/entity/Q175535>
+Medicaid	<http://www.wikidata.org/entity/Q1141363>
+Meditation	<http://www.wikidata.org/entity/Q108458>
+Men's Health	<http://www.wikidata.org/entity/Q384671>
+Mensa	<http://www.wikidata.org/entity/Q184194>
+Mich	<http://www.wikidata.org/entity/Q1166>
+Michelle Bachmann	<http://www.wikidata.org/entity/Q160582>
+Midwest	<http://www.wikidata.org/entity/Q186545>
+Mileage Plus	<http://www.wikidata.org/entity/Q6851134>
+Money	<http://www.wikidata.org/entity/Q1368>
+Montreal	<http://www.wikidata.org/entity/Q340>
+Mozzarella	<http://www.wikidata.org/entity/Q14088>
+Myeloma	<http://www.wikidata.org/entity/Q467635>
+NEW YORK	<http://www.wikidata.org/entity/Q60>
+NIMH	<http://www.wikidata.org/entity/Q1967405>
+NIce	<http://www.wikidata.org/entity/Q33959>
+NY Post	<http://www.wikidata.org/entity/Q211374>
+NYC	<http://www.wikidata.org/entity/Q60>
+NYPD	<http://www.wikidata.org/entity/Q328473>
+NYPd	<http://www.wikidata.org/entity/Q328473>
+NYSE Euronext	<http://www.wikidata.org/entity/Q13683>
+National Enquirer	<http://www.wikidata.org/entity/Q1814777>
+National Institute of Mental Health	<http://www.wikidata.org/entity/Q1967405>
+Naughty Dog	<http://www.wikidata.org/entity/Q720871>
+Netflix	<http://www.wikidata.org/entity/Q907311>
+New England	<http://www.wikidata.org/entity/Q18389>
+New Hampshire	<http://www.wikidata.org/entity/Q759>
+New YORK	<http://www.wikidata.org/entity/Q60>
+New YORK POST	<http://www.wikidata.org/entity/Q211374>
+New York	<http://www.wikidata.org/entity/Q60>
+New York Bay	<http://www.wikidata.org/entity/Q1190104>
+New York City	<http://www.wikidata.org/entity/Q60>
+New York Public Interest Research Group	<http://www.wikidata.org/entity/Q4537781>
+New York Stock Exchange	<http://www.wikidata.org/entity/Q13677>
+New York Times	<http://www.wikidata.org/entity/Q9684>
+New Zealand	<http://www.wikidata.org/entity/Q664>
+Newspaper	<http://www.wikidata.org/entity/Q11032>
+Nice	<http://www.wikidata.org/entity/Q33959>
+Nook	<http://www.wikidata.org/entity/Q2335771>
+Nuclear Regulatory Commission	<http://www.wikidata.org/entity/Q1320326>
+Occupy Wall Street	<http://www.wikidata.org/entity/Q180654>
+OccupyWallStreet	<http://www.wikidata.org/entity/Q180654>
+Oklahoma	<http://www.wikidata.org/entity/Q1649>
+Old Republic	<http://www.wikidata.org/entity/Q737308>
+Orange County	<http://www.wikidata.org/entity/Q5925>
+PARIS	<http://www.wikidata.org/entity/Q90>
+PAX	<http://www.wikidata.org/entity/Q588487>
+PS Vita	<http://www.wikidata.org/entity/Q188808>
+PS2	<http://www.wikidata.org/entity/Q10680>
+PS3	<http://www.wikidata.org/entity/Q10683>
+PSN	<http://www.wikidata.org/entity/Q719629>
+Palliative Care	<http://www.wikidata.org/entity/Q29483>
+Palliative care	<http://www.wikidata.org/entity/Q29483>
+Paris	<http://www.wikidata.org/entity/Q90>
+Paul	<http://www.wikidata.org/entity/Q15257>
+Paul Prudhomme	<http://www.wikidata.org/entity/Q1377468>
+Philippine	<http://www.wikidata.org/entity/Q928>
+Picasa	<http://www.wikidata.org/entity/Q9349>
+Pink	<http://www.wikidata.org/entity/Q429220>
+Pink	<http://www.wikidata.org/entity/Q160009>
+Post	<http://www.wikidata.org/entity/Q2764521>
+Postbox	<http://www.wikidata.org/entity/Q49844>
+Princess Diana	<http://www.wikidata.org/entity/Q9685>
+Program	<http://www.wikidata.org/entity/Q603948>
+Psychology	<http://www.wikidata.org/entity/Q9418>
+Public Citizen	<http://www.wikidata.org/entity/Q7257343>
+Q4	<http://www.wikidata.org/entity/Q3186692>
+RGB	<http://www.wikidata.org/entity/Q166194>
+RTS	<http://www.wikidata.org/entity/Q208189>
+Raising Hope	<http://www.wikidata.org/entity/Q34669>
+Recipes	<http://www.wikidata.org/entity/Q219239>
+Red Green Blue	<http://www.wikidata.org/entity/Q166194>
+Republican	<http://www.wikidata.org/entity/Q29468>
+Reuters	<http://www.wikidata.org/entity/Q130879>
+Rhino	<http://www.wikidata.org/entity/Q34718>
+Rhinos	<http://www.wikidata.org/entity/Q34718>
+Richard Drew	<http://www.wikidata.org/entity/Q1531836>
+Richmond	<http://www.wikidata.org/entity/Q43421>
+Rick Perry	<http://www.wikidata.org/entity/Q215057>
+Robert Cialdini	<http://www.wikidata.org/entity/Q1198516>
+Rock Paper Shotgun	<http://www.wikidata.org/entity/Q844055>
+Rockaway	<http://www.wikidata.org/entity/Q62569>
+Rocksteady	<http://www.wikidata.org/entity/Q2307159>
+Romance Writers of America	<http://www.wikidata.org/entity/Q2164832>
+Romans	<http://www.wikidata.org/entity/Q1747689>
+Rome	<http://www.wikidata.org/entity/Q220>
+Romney	<http://www.wikidata.org/entity/Q2129729>
+Ron Paul	<http://www.wikidata.org/entity/Q15257>
+Russian	<http://www.wikidata.org/entity/Q159>
+SEO	<http://www.wikidata.org/entity/Q180711>
+Safari	<http://www.wikidata.org/entity/Q35773>
+Sam's	<http://www.wikidata.org/entity/Q1972120>
+Santorum	<http://www.wikidata.org/entity/Q155985>
+Sauce	<http://www.wikidata.org/entity/Q178359>
+Save	<http://www.wikidata.org/entity/Q1377846>
+Shadow of the Colossus	<http://www.wikidata.org/entity/Q846051>
+Shuhei Yoshida	<http://www.wikidata.org/entity/Q11413590>
+Shurikens	<http://www.wikidata.org/entity/Q47098>
+Singapore	<http://www.wikidata.org/entity/Q334>
+Skyrim	<http://www.wikidata.org/entity/Q323862>
+Smithers	<http://www.wikidata.org/entity/Q1504443>
+Sony	<http://www.wikidata.org/entity/Q41187>
+South Africa	<http://www.wikidata.org/entity/Q258>
+South African	<http://www.wikidata.org/entity/Q258>
+South Carolina	<http://www.wikidata.org/entity/Q1456>
+Southern District of New York	<http://www.wikidata.org/entity/Q49669>
+Splatter	<http://www.wikidata.org/entity/Q909586>
+Spring	<http://www.wikidata.org/entity/Q1312>
+St. Croix	<http://www.wikidata.org/entity/Q642481>
+Starcraft 2	<http://www.wikidata.org/entity/Q239288>
+Starhawk	<http://www.wikidata.org/entity/Q961171>
+Staten Island	<http://www.wikidata.org/entity/Q18432>
+Suda 51	<http://www.wikidata.org/entity/Q920630>
+Supreme Court	<http://www.wikidata.org/entity/Q11201>
+Surgeon General	<http://www.wikidata.org/entity/Q1434880>
+Susan G. Komen	<http://www.wikidata.org/entity/Q246898>
+Team Ico	<http://www.wikidata.org/entity/Q932631>
+The Bourne Legacy	<http://www.wikidata.org/entity/Q494048>
+The Simpsons Arcade Game	<http://www.wikidata.org/entity/Q1707018>
+Three Mile Island	<http://www.wikidata.org/entity/Q840847>
+Thunderdome	<http://www.wikidata.org/entity/Q426663>
+Time	<http://www.wikidata.org/entity/Q43297>
+Times	<http://www.wikidata.org/entity/Q50008>
+Tinnitus	<http://www.wikidata.org/entity/Q192309>
+Today	<http://www.wikidata.org/entity/Q130838>
+Tony Gilroy	<http://www.wikidata.org/entity/Q353117>
+Total SA	<http://www.wikidata.org/entity/Q154037>
+Total War	<http://www.wikidata.org/entity/Q380346>
+Trend	<http://www.wikidata.org/entity/Q1004322>
+Tweetdeck	<http://www.wikidata.org/entity/Q931346>
+Twitter	<http://www.wikidata.org/entity/Q918>
+UA	<http://www.wikidata.org/entity/Q174769>
+UK	<http://www.wikidata.org/entity/Q145>
+US	<http://www.wikidata.org/entity/Q30>
+USA	<http://www.wikidata.org/entity/Q30>
+Ueda	<http://www.wikidata.org/entity/Q2524011>
+United	<http://www.wikidata.org/entity/Q174769>
+United HealthCare	<http://www.wikidata.org/entity/Q2103926>
+United Healthcare	<http://www.wikidata.org/entity/Q2103926>
+United States	<http://www.wikidata.org/entity/Q30>
+Upper West Side	<http://www.wikidata.org/entity/Q429687>
+Uterine Cancer	<http://www.wikidata.org/entity/Q1209744>
+Valve	<http://www.wikidata.org/entity/Q193559>
+Verrazano-Narrows Bridge	<http://www.wikidata.org/entity/Q125673>
+Virginia beach	<http://www.wikidata.org/entity/Q49259>
+WDW	<http://www.wikidata.org/entity/Q206859>
+WMV	<http://www.wikidata.org/entity/Q280761>
+WP	<http://www.wikidata.org/entity/Q1185489>
+Waiting Outside the Lines	<http://www.wikidata.org/entity/Q3545223>
+Waiting4U	<http://www.wikidata.org/entity/Q3205728>
+Wales	<http://www.wikidata.org/entity/Q25>
+Walt Disney World	<http://www.wikidata.org/entity/Q206859>
+Warcraft 3	<http://www.wikidata.org/entity/Q207948>
+Washington Post	<http://www.wikidata.org/entity/Q166032>
+Wiccans	<http://www.wikidata.org/entity/Q59774>
+Wii U	<http://www.wikidata.org/entity/Q56942>
+Windows Media	<http://www.wikidata.org/entity/Q1189357>
+WordPress	<http://www.wikidata.org/entity/Q13166>
+Wordpress	<http://www.wikidata.org/entity/Q13166>
+World series	<http://www.wikidata.org/entity/Q265538>
+Wyclef Jean	<http://www.wikidata.org/entity/Q202663>
+X-ray	<http://www.wikidata.org/entity/Q34777>
+Xbox 360	<http://www.wikidata.org/entity/Q48263>
+Xmas	<http://www.wikidata.org/entity/Q1758090>
+Yahoo	<http://www.wikidata.org/entity/Q37093>
+Yankees	<http://www.wikidata.org/entity/Q213417>
+Yoshida	<http://www.wikidata.org/entity/Q11413590>
+You Tube	<http://www.wikidata.org/entity/Q866>
+eCommerce	<http://www.wikidata.org/entity/Q484847>
+iPad	<http://www.wikidata.org/entity/Q2796>
+iPhone	<http://www.wikidata.org/entity/Q2766>
+iTunes	<http://www.wikidata.org/entity/Q9589>
+phpMyAdmin	<http://www.wikidata.org/entity/Q188104>
