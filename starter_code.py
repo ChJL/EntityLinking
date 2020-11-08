@@ -3,7 +3,8 @@ from bs4 import BeautifulSoup
 from bs4.element import Comment
 from warcio.archiveiterator import ArchiveIterator
 # https://pypi.org/project/warcio/
-from html_to_text import html_to_text
+from html_to_text import html_to_text, html2text
+from NLP_utils import NLProcess, get_NER
 
 KEYNAME = "WARC-TREC-ID"
 #KEYNAME = "WARC-Record-ID"
@@ -52,7 +53,40 @@ if __name__ == '__main__':
                     # the key_ID storing WebpageID, the text storing the text converted by html
                     key_ID = record.rec_headers.get_header(KEYNAME)
                     htmlcontent = record.content_stream().read()
+                    '''
+                    if count <=245:
+                        count+=1
+                        continue
+                    '''
+                    # method 1 for html1 to text
                     soup = BeautifulSoup(htmlcontent, "html5lib")
+                    if soup.body == None:
+                        continue
+
                     text = html_to_text(soup)
+                    if text == "" or text =="XML RPC server accepts POST requests only ":
+                        continue
+
+                    # method 2 for html to text, not very useful
+                    #htmlcontent = str(htmlcontent, 'utf-8')
+                    #print(type(htmlcontent))
+                    #text2 = html2text(htmlcontent)
+                    # The Token will return a list with ("string","type")
+                    Token = NLProcess(text)
+
+                    if count < 12:
+                        print(key_ID)
+                        #print(soup)
+                        #print("text1=========================")
+                        print(text)
+                        print("token=========================")
+                        print(Token)
+                        print("==========",count,"==========")
+                        #print('token type:',type(Token))
+                    count +=1
+                    if count == 12:
+                        break
+
+
 
 

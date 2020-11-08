@@ -6,3 +6,10 @@ implement a program that receives a collection of web pages as input and returns
 ### HTML to Text
 * Use **warcio** to read warc file
 * Use **BeautifulSoup** to retrieve Text from Html
+
+### NLP Process
+* Use **sent_tokenize** & **word_tokenize** from **NLTK**
+* (Stemming and lemmatization may affect the results of POS tagging, so I currently skip this step)
+* Stop words removal
+* POS tag
+* Implement NER to derive entities using **ne_chunk** in **NLTK**
