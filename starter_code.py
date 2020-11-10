@@ -3,8 +3,9 @@ from bs4 import BeautifulSoup
 from bs4.element import Comment
 from warcio.archiveiterator import ArchiveIterator
 # https://pypi.org/project/warcio/
-from html_to_text import html_to_text, html2text
-from NLP_utils import NLProcess, get_NER
+from html_to_text import html_to_text, parse_html
+from NLP_utils import NLProcess, get_NER, NLProcess2
+from test_elasticsearch_server import ELSsearch, search
 
 KEYNAME = "WARC-TREC-ID"
 #KEYNAME = "WARC-Record-ID"
@@ -23,6 +24,10 @@ def find_keys(payload):
             key = line.split(': ')[1]
             return key;
 
+def generate_candidates(NER_mention):
+    candidates = None
+    candidates = ELSsearch(NER_mention).items()
+    return candidates
 
 def split_records(stream):
     payload = ''
@@ -33,11 +38,7 @@ def split_records(stream):
         else:
             payload += line
     yield payload
-'''
-def retrieveText(record):
-    if record:
-        soup = BeautifulSoup(record,"html5lib")
-'''
+
 if __name__ == '__main__':
     import sys
     try:
@@ -54,39 +55,55 @@ if __name__ == '__main__':
                     key_ID = record.rec_headers.get_header(KEYNAME)
                     htmlcontent = record.content_stream().read()
                     '''
-                    if count <=245:
+                    if count <=850:
                         count+=1
                         continue
+                    
                     '''
                     # method 1 for html1 to text
-                    soup = BeautifulSoup(htmlcontent, "html5lib")
-                    if soup.body == None:
+                    soup = BeautifulSoup(htmlcontent, "lxml")
+                    if soup == None:
                         continue
 
+                    #test = parse_html(soup)
+                    
                     text = html_to_text(soup)
-                    if text == "" or text =="XML RPC server accepts POST requests only ":
+                    if text == "":
                         continue
 
-                    # method 2 for html to text, not very useful
-                    #htmlcontent = str(htmlcontent, 'utf-8')
-                    #print(type(htmlcontent))
-                    #text2 = html2text(htmlcontent)
+                    
+
                     # The Token will return a list with ("string","type")
-                    Token = NLProcess(text)
+                    
+                    NER_mentions = NLProcess(text)
+                    # drop duplicate in NER_mentions
+                    NER_mentions = list(dict.fromkeys(NER_mentions))
 
-                    if count < 12:
+                    
+                    #for mention in NER_mentions:
+                        #candidates = generate_candidates(mention[0])
+                    
+                    
+                    if count == 1:
+                        
                         print(key_ID)
-                        #print(soup)
-                        #print("text1=========================")
-                        print(text)
-                        print("token=========================")
-                        print(Token)
+                        
+                        print("text1=========================")
+                        #print(text)
+                        print("token1=========================")
+                        print(NER_mentions)
                         print("==========",count,"==========")
-                        #print('token type:',type(Token))
-                    count +=1
-                    if count == 12:
-                        break
 
+                        
+                        for mention in NER_mentions:
+                            candidates = generate_candidates(mention[0])
+                            print("===============")
+                            print(candidates)
+                        
+
+                        break
+                    count +=1
+                    
 
 
 
