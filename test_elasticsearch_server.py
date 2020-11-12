@@ -8,7 +8,7 @@ def ELSsearch(query):
     e = Elasticsearch()
     p = { "query" : { "query_string" : { "query" : query }} }
     try:
-        response = e.search(index="wikidata_en", body=json.dumps(p))
+        response = e.search(index="wikidata_en", body=json.dumps(p),size=50)
     except:
         return {}
 
@@ -53,7 +53,7 @@ if __name__ == '__main__':
     try:
         _, QUERY = sys.argv
     except Exception as e:
-        QUERY = 'Vrije Universiteit Amsterdam'
-
-    for entity, labels in search(QUERY).items():
+        #QUERY = 'Vrije Universiteit Amsterdam'
+        QUERY = "Wordpress"
+    for entity, labels in ELSsearch(QUERY).items():
         print(entity, labels)

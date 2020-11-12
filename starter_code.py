@@ -7,8 +7,8 @@ from html_to_text import html_to_text, parse_html
 from NLP_utils import NLProcess, get_NER, NLProcess2
 from test_elasticsearch_server import ELSsearch, search
 from strsimpy.cosine import Cosine
-#KEYNAME = "WARC-TREC-ID"
-KEYNAME = "WARC-Record-ID"
+KEYNAME = "WARC-TREC-ID"
+#KEYNAME = "WARC-Record-ID"
 
 # The goal of this function process the webpage and returns a list of labels -> entity ID
 def find_keys(payload):
@@ -61,11 +61,11 @@ if __name__ == '__main__':
                     # the key_ID storing WebpageID, the text storing the text converted by html
                     key_ID = record.rec_headers.get_header(KEYNAME)
                     htmlcontent = record.content_stream().read()
-                    
+                    '''
                     if count <10:
                         count+=1
                         continue
-                    
+                    '''
                     
                     # method 1 for html1 to text
                     soup = BeautifulSoup(htmlcontent, "lxml")
@@ -91,45 +91,55 @@ if __name__ == '__main__':
                         #candidates = generate_candidates(mention[0])
                     
                     
-                    if count >= 10:
-                        print("key_ID")
-                        print(key_ID)
+                    if count >= 0:
+                        #print("key_ID")
+                        #print(key_ID)
                         #print(soup)
-                        print("text1=========================")
-                        print(text)
-                        print("token1=========================")
-                        print(NER_mentions)
-                        print("==========",count,"==========")
+                        #print("text1=========================")
+                        #print(text)
+                        #print("token1=========================")
+                        #print(NER_mentions)
+                        #print("==========",count,"==========")
 
                         final_entities = []
                         for mention in NER_mentions:
                             # candidates is a dictionary with 10 results
                             candidates = generate_candidates(mention[0])
-                            print("mention: ",mention)
-                            print("mention type: ", type(mention[0]))
+                            #print("mention: ",mention)
+                            #print("mention type: ", type(mention[0]))
 
-                            print("===============")
-                            print(candidates)
+                            #print("===============")
+                            #print(candidates)
                             can_with_max_score = ""
                             max_score = 0
                             max_entity = []
                             if candidates == None:
                                 continue
                             for entity_id, labels in candidates:
-                                print("entity_id:",entity_id)
-                                print("labels:", labels)
-                                print("labels.type: ",type(labels))
+                                #print("entity_id:",entity_id)
+                                #print("labels:", labels)
+                                #print("labels.type: ",type(labels))
+
+                                # convert labels into string type 
                                 labels_str = ', '.join(labels)
-                                temp_score = cos_sim(labels_str,mention[0])
+                                
+                                # if words of mention are "completely" in labels, add a bonus score 
+                                contain_score = 0
+                                if mention[0] in labels_str:
+                                    contain_score = 0.1
+                                # do the string similarity
+                                temp_score = cos_sim(labels_str,mention[0]) + contain_score
                                 if temp_score > max_score:
                                     max_score = temp_score
                                     max_entity = [mention[0],entity_id]
                             if len(max_entity) != 0:
                                 final_entities.append(max_entity)
 
-                        print("--final_entities--")
+                        #print("--final_entities--")
                         if len(final_entities) > 0:
-                            print(final_entities)
+                            #print(final_entities)
+                            for final_enity in final_entities:
+                                print(key_ID + '\t' + final_enity[0] + '\t' + final_enity[1])
 
                         
                     count +=1
