@@ -6,9 +6,9 @@ from warcio.archiveiterator import ArchiveIterator
 from html_to_text import html_to_text, parse_html
 from NLP_utils import NLProcess, get_NER, NLProcess2
 from test_elasticsearch_server import ELSsearch, search
-
-KEYNAME = "WARC-TREC-ID"
-#KEYNAME = "WARC-Record-ID"
+from strsimpy.cosine import Cosine
+#KEYNAME = "WARC-TREC-ID"
+KEYNAME = "WARC-Record-ID"
 
 # The goal of this function process the webpage and returns a list of labels -> entity ID
 def find_keys(payload):
@@ -23,6 +23,13 @@ def find_keys(payload):
         if line.startswith(KEYNAME):
             key = line.split(': ')[1]
             return key;
+
+def cos_sim(str1,str2):
+    cosine = Cosine(2)
+    p1 = cosine.get_profile(str1)
+    p2 = cosine.get_profile(str2)
+    score = cosine.similarity_profiles(p1, p2)
+    return score
 
 def generate_candidates(NER_mention):
     candidates = None
@@ -54,12 +61,12 @@ if __name__ == '__main__':
                     # the key_ID storing WebpageID, the text storing the text converted by html
                     key_ID = record.rec_headers.get_header(KEYNAME)
                     htmlcontent = record.content_stream().read()
-                    '''
-                    if count <=850:
+                    
+                    if count <10:
                         count+=1
                         continue
                     
-                    '''
+                    
                     # method 1 for html1 to text
                     soup = BeautifulSoup(htmlcontent, "lxml")
                     if soup == None:
@@ -84,26 +91,50 @@ if __name__ == '__main__':
                         #candidates = generate_candidates(mention[0])
                     
                     
-                    if count == 1:
-                        
+                    if count >= 10:
+                        print("key_ID")
                         print(key_ID)
-                        
+                        #print(soup)
                         print("text1=========================")
-                        #print(text)
+                        print(text)
                         print("token1=========================")
                         print(NER_mentions)
                         print("==========",count,"==========")
 
-                        
+                        final_entities = []
                         for mention in NER_mentions:
+                            # candidates is a dictionary with 10 results
                             candidates = generate_candidates(mention[0])
+                            print("mention: ",mention)
+                            print("mention type: ", type(mention[0]))
+
                             print("===============")
                             print(candidates)
-                        
+                            can_with_max_score = ""
+                            max_score = 0
+                            max_entity = []
+                            if candidates == None:
+                                continue
+                            for entity_id, labels in candidates:
+                                print("entity_id:",entity_id)
+                                print("labels:", labels)
+                                print("labels.type: ",type(labels))
+                                labels_str = ', '.join(labels)
+                                temp_score = cos_sim(labels_str,mention[0])
+                                if temp_score > max_score:
+                                    max_score = temp_score
+                                    max_entity = [mention[0],entity_id]
+                            if len(max_entity) != 0:
+                                final_entities.append(max_entity)
 
-                        break
+                        print("--final_entities--")
+                        if len(final_entities) > 0:
+                            print(final_entities)
+
+                        
                     count +=1
-                    
+                    if count == 20:
+                        break
 
 
 

@@ -13,3 +13,7 @@ implement a program that receives a collection of web pages as input and returns
 * Stop words removal
 * POS tag
 * Implement NER to derive entities using **ne_chunk** in **NLTK**
+
+### Candidate Generation
+* Use **Elastic search** to get 10 potential candidates
+* We are now still figuring out how to use sparql, but we first implement the cosine similarity using **strsimpy** package to compare the similarity of string between entity mention and entity candidates. 
