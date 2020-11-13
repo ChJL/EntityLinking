@@ -1,11 +1,11 @@
 import nltk
-
+'''
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('maxent_ne_chunker')
 nltk.download('words')
-
+'''
 from nltk.tokenize import RegexpTokenizer
 from nltk.tokenize import word_tokenize, sent_tokenize
 
@@ -55,8 +55,10 @@ def NLProcess(text):
 		#lancaster = LancasterStemmer()
 		#word_token = [lancaster.stem(i) for i in word_token]
 		#intermediate = [porter.stem(i) for i in word_token]
-
-		intermediate = [w for w in word_token if not w in stopwords.words('english')]
+		all_stopwords = stopwords.words('english')
+        list1 =('How','Was','Are','Of','For','Be','No','AT','AM','The','Very','Cheap','Have')
+        all_stopwords.extend(list1)
+        intermediate = [w for w in word_token if not w in all_stopwords]
 		#==== pos taging =======
 		postag_token = nltk.pos_tag(intermediate)
 	
