@@ -16,4 +16,8 @@ implement a program that receives a collection of web pages as input and returns
 
 ### Candidate Generation
 * Use **Elastic search** to get 10 potential candidates
-* We are now still figuring out how to use sparql, but we first implement the cosine similarity using **strsimpy** package to compare the similarity of string between entity mention and entity candidates. 
+
+### Candidate Ranking
+* We are now still figuring out how to use sparql, but we first implement the cosine similarity using **Jaccard Similarity** to compare the similarity between entity mention and entity candidates. 
+* After deriving 10 candates' score of similarity, we will pick the one with highest similarity. However, we set a threshold for the score. If the score of the candidate less than the threshold, we will drop the candidate.
+* Finally, we obtain the entity which is highest similar to entity mention, and with its score higher than the threshold we set.
