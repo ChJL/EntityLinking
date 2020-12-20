@@ -38,3 +38,6 @@ Implement a program that receives a collection of web pages as input and returns
 |__Precision__|0.0356|
 |__Recall__|0.08|
 |__F1__|0.0493|
+
+### Future work
+There are lots of work could be improved in our implementation. Also, our result is not good enough. First, the sentence tokenizer isn't work well because the puctuation was already removed. It's a mistake. Second, the NER package in NLTK isn't the best one for NER task. Third, the SPARQL should be used for entity candidtate ranking, so that the F1 score would be enhanced.
