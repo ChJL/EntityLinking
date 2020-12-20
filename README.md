@@ -5,8 +5,8 @@ Implement a program that receives a collection of web pages as input and returns
 
 ## Implementation Procedure
 <p align="center">
-    <img src="procedure.svg" id="img-procedure"/>
-    <span style>Figure 1. Implementation Procedure Overview</span>
+    <img src="procedure.png" id="img-procedure"/>
+    <span style>Implementation Procedure Overview</span>
 </p>
 
 
@@ -32,6 +32,7 @@ Implement a program that receives a collection of web pages as input and returns
 ## Result
 
 |__Gold__|500|
+|:--:|:--:|
 |__Predicted__|1123|
 |__Correct__|40|
 |__Precision__|0.0356|
